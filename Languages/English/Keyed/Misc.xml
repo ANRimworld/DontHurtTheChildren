@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<DHTC.Prey.Label>Children can be hunted</DHTC.Prey.Label>
+	<DHTC.Prey.Tooltip>Children can be hunted by any wild predator. This doesnt change manhunter</DHTC.Prey.Tooltip>
+	<DHTC.CanTakeDamage.Label>Children can be hurt</DHTC.CanTakeDamage.Label>
+	<DHTC.CanTakeDamage.Tooltip>Children won't be directly targeted, but they can still be hurt by indirect sources</DHTC.CanTakeDamage.Tooltip>
+	<DHTC.canBeRaidTarget.Label>Children can be targeted by raiders</DHTC.canBeRaidTarget.Label>
+	<DHTC.canBeRaidTarget.Tooltip>Children can be target by any raid or similar threat</DHTC.canBeRaidTarget.Tooltip>
+	<DHTC.canEquipWeapons.Label>Children can equip weapons</DHTC.canEquipWeapons.Label>
+	<DHTC.canEquipWeapons.Tooltip>When holding a weapon they will not be protected regardless. Disable this if you never want a child to hold a weapon</DHTC.canEquipWeapons.Tooltip>
+	<DHTC.ChildCantEquip>Children can not equip a weapon</DHTC.ChildCantEquip>
+</LanguageData>
