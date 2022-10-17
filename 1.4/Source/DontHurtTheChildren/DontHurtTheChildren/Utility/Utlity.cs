@@ -9,7 +9,7 @@ namespace DontHurtTheChildren
     {
         public static bool IsProtectedChild(this Pawn pawn)
         {
-            return pawn.DevelopmentalStage.Child() && pawn.RaceProps.Humanlike && pawn.equipment?.Primary == null;
+            return pawn.DevelopmentalStage.Child() && pawn.RaceProps.Humanlike && pawn.equipment?.Primary == null && pawn.mindState?.enemyTarget == null;
         }
     }
 }

@@ -51,9 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harmony\Pawn_CombinedDisabledWorkTags_Getter.cs" />
+    <Compile Include="Harmony\Pawn_PreApplyDamage.cs" />
     <Compile Include="Harmony\AttackTargetFinder_BestAttackTarget.cs" />
     <Compile Include="Harmony\FoodUtility_IsAcceptablePreyFor.cs" />
     <Compile Include="Harmony\AttackTargetsCache_GetPotentialTargetsFor.cs" />
+    <Compile Include="Harmony\EquipmentUtility_CanEquip.cs" />
     <Compile Include="Harmony\Pawn_ThreatDisabled.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Options\Settings.cs" />
