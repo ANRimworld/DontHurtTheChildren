@@ -10,7 +10,8 @@ namespace DontHurtTheChildren
 {
 
     [HarmonyPatch(typeof(EquipmentUtility))]
-    [HarmonyPatch("CanEquip",new Type[] {typeof(Thing), typeof(Pawn),typeof(string),typeof(bool)}) ]
+    [HarmonyPatch("CanEquip") ]
+    [HarmonyPatch(new Type[] { typeof(Thing), typeof(Pawn), typeof(string), typeof(bool) },new[] {ArgumentType.Normal,ArgumentType.Normal,ArgumentType.Out,ArgumentType.Normal})]
 
     public static class EquipmentUtility_CanEquip_Patch
     {

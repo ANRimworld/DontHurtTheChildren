@@ -28,10 +28,10 @@ namespace DontHurtTheChildren
         {
             Listing_Standard ls = new Listing_Standard();
             ls.Begin(inRect);
-            ls.CheckboxLabeled("DHTC.canBeRaidTarget.Label".Translate(), ref canBePrey, "DHTC.canBeRaidTarget.Tooltip".Translate());
+            ls.CheckboxLabeled("DHTC.canBeRaidTarget.Label".Translate(), ref canBeRaidTarget, "DHTC.canBeRaidTarget.Tooltip".Translate());
             ls.CheckboxLabeled("DHTC.Prey.Label".Translate(), ref canBePrey, "DHTC.Prey.Tooltip".Translate());
-            ls.CheckboxLabeled("DHTC.CanTakeDamage.Label".Translate(), ref canBePrey, "DHTC.CanTakeDamage.Tooltip".Translate());
-            ls.CheckboxLabeled("DHTC.canEquipWeapons.Label".Translate(), ref canBePrey, "DHTC.canEquipWeapons.Tooltip".Translate());
+            ls.CheckboxLabeled("DHTC.CanTakeDamage.Label".Translate(), ref canTakeDamage, "DHTC.CanTakeDamage.Tooltip".Translate());
+            ls.CheckboxLabeled("DHTC.canEquipWeapons.Label".Translate(), ref canEquipWeapons, "DHTC.canEquipWeapons.Tooltip".Translate());
             ls.End();
         }
 

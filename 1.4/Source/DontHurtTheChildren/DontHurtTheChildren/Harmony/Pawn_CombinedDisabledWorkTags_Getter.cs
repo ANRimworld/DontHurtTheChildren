@@ -21,7 +21,7 @@ namespace DontHurtTheChildren
         [HarmonyPostfix]
         public static void Postfix(Pawn __instance, ref WorkTags __result)
         {
-            if (__instance.IsProtectedChild())
+            if (__instance.IsProtectedChild() && !Settings.canEquipWeapons)
             {
                 __result |= WorkTags.Violent;
             }
