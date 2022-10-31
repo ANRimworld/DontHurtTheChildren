@@ -15,4 +15,6 @@
 	<DHTC.tradersCanSellChildren.Tooltip>With this disabled, stock generators will not be able to generate children</DHTC.tradersCanSellChildren.Tooltip>
 	<DHTC.manInBlack.Label>Man in Black Changes</DHTC.manInBlack.Label>
 	<DHTC.manInBlack.Tooltip>With this enabled, man in black will appear if only children are still alive.</DHTC.manInBlack.Tooltip>
+	<DHTC.noKidBetray.Label>Refugee kids won't betray</DHTC.noKidBetray.Label>
+	<DHTC.noKidBetray.Tooltip>With this enabled, refugee kids will have no chance to attack your colony.</DHTC.noKidBetray.Tooltip>
 </LanguageData>

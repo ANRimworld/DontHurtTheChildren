@@ -18,6 +18,7 @@ namespace DontHurtTheChildren
         public static bool betterFleeDestination = true;
         public static bool tradersCanSellChildren = true;
         public static bool manInBlack = true;
+        public static bool noKidBetray = true;
         public override void ExposeData()
         {
             base.ExposeData();
@@ -28,6 +29,7 @@ namespace DontHurtTheChildren
             Scribe_Values.Look(ref betterFleeDestination, "betterFleeDestination", false, true);
             Scribe_Values.Look(ref tradersCanSellChildren, "tradersCanSellChildren", false, true);
             Scribe_Values.Look(ref manInBlack, "manInBlack", false, true);
+            Scribe_Values.Look(ref noKidBetray, "noKidBetray", false, true);
         }
 
         public static void DoWindowContents(Rect inRect)
@@ -41,6 +43,7 @@ namespace DontHurtTheChildren
             ls.CheckboxLabeled("DHTC.betterFleeDestination.Label".Translate(), ref betterFleeDestination, "DHTC.betterFleeDestination.Tooltip".Translate());
             ls.CheckboxLabeled("DHTC.tradersCanSellChildren.Label".Translate(), ref tradersCanSellChildren, "DHTC.tradersCanSellChildren.Tooltip".Translate());
             ls.CheckboxLabeled("DHTC.manInBlack.Label".Translate(), ref manInBlack, "DHTC.manInBlack.Tooltip".Translate());
+            ls.CheckboxLabeled("DHTC.noKidBetray.Label".Translate(), ref noKidBetray, "DHTC.noKidBetray.Tooltip".Translate());
             ls.End();
         }
 

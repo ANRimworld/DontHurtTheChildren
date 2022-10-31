@@ -37,6 +37,7 @@
       <HintPath>F:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harmony\QuestNode_Root_Hospitality_Refugee_RunInt.cs" />
     <Compile Include="Harmony\StorytellerComp_Triggered_Notify_PawnEvent_Patch.cs" />
     <Compile Include="Harmony\StockGenerator_Slaves_GenerateThings.cs" />
     <Compile Include="Harmony\CellFinderLoose_GetFleeDest.cs" />
