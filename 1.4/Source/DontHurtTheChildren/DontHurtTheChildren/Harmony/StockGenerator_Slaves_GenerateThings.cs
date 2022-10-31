@@ -36,10 +36,10 @@ namespace DontHurtTheChildren
                 }*/
         [HarmonyPostfix]
         static IEnumerable<Pawn> Postfix(IEnumerable<Pawn> values, StockGenerator_Slaves __instance,int forTile, Faction faction)
-        {
+        {            
             foreach(var p in values)
             {
-                if (!p.DevelopmentalStage.Child())
+                if (!p.DevelopmentalStage.Child() || Settings.tradersCanSellChildren)
                 {
                     yield return p;
                 }

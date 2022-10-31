@@ -33,14 +33,14 @@ namespace DontHurtTheChildren
             result = IntVec3.Invalid;
             foreach (var parent in parents)
             {
-                if (parent.Spawned && parent.Downed && parent.mindState?.enemyTarget == null && !threats.Any(x => parent.Position.DistanceTo(x.Position) <= 20f))
+                if (parent.Spawned && !parent.Downed && parent.mindState?.enemyTarget == null && !threats.Any(x => parent.Position.DistanceTo(x.Position) <= 20f))
                 {
                     result = parent.Position;
                     return true;
                 }
             }
             var bed = pawn.ownership?.OwnedBed;
-            if (bed != null && !threats.Any(x => bed.Position.DistanceTo(x.Position) <= 20f))
+            if (bed != null && !threats.Any(x => bed.Position.DistanceTo(x.Position) <= 20f) && bed.Position.GetDangerFor(pawn, pawn.Map) < Danger.Deadly)
             {
                 result = bed.Position;
                 return true;
