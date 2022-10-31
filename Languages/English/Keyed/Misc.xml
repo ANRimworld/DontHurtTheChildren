@@ -9,4 +9,10 @@
 	<DHTC.canEquipWeapons.Label>Children can be capable of violence</DHTC.canEquipWeapons.Label>
 	<DHTC.canEquipWeapons.Tooltip>When holding a weapon they will not be protected regardless. Disable this if you never want a child to take part in combat</DHTC.canEquipWeapons.Tooltip>
 	<DHTC.ChildCantEquip>Children can not equip a weapon</DHTC.ChildCantEquip>
+	<DHTC.betterFleeDestination.Label>Improved child flee</DHTC.betterFleeDestination.Label>
+	<DHTC.betterFleeDestination.Tooltip>Children will run try to flee to their parents, their room, or any friendly colonist in that order based on if those locations are safe, and not in combat.</DHTC.betterFleeDestination.Tooltip>
+	<DHTC.tradersCanSellChildren.Label>Children can be sold by traders</DHTC.tradersCanSellChildren.Label>
+	<DHTC.tradersCanSellChildren.Tooltip>With this disabled, stock generators will not be able to generate children</DHTC.tradersCanSellChildren.Tooltip>
+	<DHTC.manInBlack.Label>Man in Black Changes</DHTC.manInBlack.Label>
+	<DHTC.manInBlack.Tooltip>With this enabled, man in black will appear if only children are still alive.</DHTC.manInBlack.Tooltip>
 </LanguageData>

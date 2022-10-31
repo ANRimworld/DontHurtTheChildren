@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harmony\StorytellerComp_Triggered_Notify_PawnEvent_Patch.cs" />
+    <Compile Include="Harmony\StockGenerator_Slaves_GenerateThings.cs" />
+    <Compile Include="Harmony\CellFinderLoose_GetFleeDest.cs" />
     <Compile Include="Harmony\Pawn_CombinedDisabledWorkTags_Getter.cs" />
     <Compile Include="Harmony\Pawn_PreApplyDamage.cs" />
     <Compile Include="Harmony\AttackTargetFinder_BestAttackTarget.cs" />
